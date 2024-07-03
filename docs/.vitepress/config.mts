@@ -8,7 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "../public/images/avatar.jpg",
+    logo: "/MyStudyBlog/../public/images/avatar.jpg",
     search: {
       provider: 'local'
     },
@@ -16,27 +16,27 @@ export default defineConfig({
       { text: '首页', link: '/' },
       {
         text: 'vue系列', items: [
-          { text: "Vue2系列", link: '../vue/vue2.md' },
-          { text: "Vue3系列", link: '../vue/vue3.md' }
+          { text: "Vue2系列", link: '/MyStudyBlog/../vue/vue2.md' },
+          { text: "Vue3系列", link: '/MyStudyBlog/../vue/vue3.md' }
         ]
       },
-      { text: 'uniapp系列', link: '../uniapp/index.md' }
+      { text: 'uniapp系列', link: '/MyStudyBlog/../uniapp/index.md' }
     ],
 
     sidebar: [
       {
         text: 'vue系列',
-        link: '../vue/index.md',
+        link: '/MyStudyBlog/../vue/index.md',
         collapsed: false,
         items: [
-          { text: "Vue2系列", link: '../vue/vue2.md' },
-          { text: "Vue3系列", link: '../vue/vue3.md' }
+          { text: "Vue2系列", link: '/MyStudyBlog/../vue/vue2.md' },
+          { text: "Vue3系列", link: '/MyStudyBlog/../vue/vue3.md' }
         ]
       },
       {
         text: 'uniapp系列',
         collapsed: false,
-        link: '../uniapp/index.md',
+        link: '/MyStudyBlog/../uniapp/index.md',
         items: [
           { text: 'uniapp系列', }
         ]
@@ -44,7 +44,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/LiTouWei' }
     ]
   }
 })
