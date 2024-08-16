@@ -10,7 +10,7 @@ hero:
         src: ./public/images/avatar.jpg
   actions:
     - theme: brand
-      text: 主页
+      text: 主页1
       link: /markdown-examples
     - theme: alt
       text: 个人中心
