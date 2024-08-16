@@ -13,7 +13,7 @@ hero:
       text: 主页1
       link: /markdown-examples
     - theme: alt
-      text: 个人中心1
+      text: 个人中心
       link: /api-examples
 
 features:
