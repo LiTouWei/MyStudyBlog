@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "小伟の学习Blog11111"
+  name: "小伟の学习"
   text: "现在学前端的同学们是不是汗流浃背了"
-  tagline: JayChou/撸狗/初级前端
+  tagline: JayChou/撸狗/初级前端test
   image:
         src: ./public/images/avatar.jpg
   actions:
